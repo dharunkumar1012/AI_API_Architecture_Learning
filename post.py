@@ -16,6 +16,8 @@ app = FastAPI()
 #         "quantity": product.quantity
 #     }
 
+# Request and Response Model:
+
 class ProductRequest(BaseModel):
     name: str
     price: float
